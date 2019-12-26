@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout ="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Evento App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+<H1 align="center">Cadastro de Alunos </H1>
+<h3><a href="/alunos" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Lista de Alunos </a></h3>
+
+<form class="container" method="post">
+    nome: <input type="text" value="" name="nome">
+    <div class="row">
+        <div class="input-field col s6"> Ano : <input type="text" value="" name="ano"></div>
+        <div class="input-field col s6">Horario: <input type="text" value="" name="horario"></div>
+    </div>
+    <button class="waves-effect waves-light btn" type="submit">Salvar</button>
+</form>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
